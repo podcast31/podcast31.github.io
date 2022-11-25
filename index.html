@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="Keywords" content="podcast, lo31 podcast, 31 podcast, lo31">
   <meta name="Description" content="Podcasty 31 LO">
-  <meta name="theme-color" content="#ffffff" />
   <title>Podcast 31</title>
   <link href="style.css" rel="stylesheet">
   <link rel="icon" href="files/ico.png">
@@ -13,27 +12,44 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<body onload="Time()">
+<body>
   <div class="topnav">
-    <text id="time">Podcast31</text>
+    <text id="title">Podcast 31</text>
     <script src="script.js"></script>
-    <a href="#about">Info</a>
+    <!-- <a href="#about">Info</a> -->
     <a href="#contact">Linki&nbsp;&nbsp;</a>
   </div>
   <br><br><br><br><br>
-  <div class="mainimg" id="top">
-    <img src="files/main.png">
-  </div>
+  <img src="files/main.png" id="mainimg">
   <div class="main" id="about">
-    <h1 id="glow">Witamy na stronie Podcast31</h1>
-  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/5j87PbXpVUD6KNGwolXpit?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-  <h3 style="margin-top: 50px"><b>Linki</b></h3>
-<div class="contact" id="contact">
-    <a onclick="msg()"><img id='dc' src="files/discord.png" class="button"></a>
-    <a onclick="msg2()"><img id='email' class="button" src="files/email.png"></a>
+    <h1 id="glow">Witamy na stronie Podcast 31</h1>
+  <iframe src="https://open.spotify.com/embed/show/5j87PbXpVUD6KNGwolXpit?utm_source=generator" width="80%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  <h1 style="margin-top: 60px" id="glow">Newsy</h1>
+  <div class="stuff">
+    <div class="gallery" style="margin: 2%">
+      <a target="_blank" href="https://open.spotify.com/show/5j87PbXpVUD6KNGwolXpit">
+        <img
+          src="files/new.png">
+      </a>
+      <div class="desc">
+        <h1><a href="https://open.spotify.com/show/5j87PbXpVUD6KNGwolXpit" target="_blank">Pierwszy podcast już dostępny!</a>
+        </h1>
+      </div>
+    </div>
+    <div class="gallery" style="margin: 2%">
+      <a target="_blank" href="https://podcast31.github.io">
+        <img src="https://thumbs.gfycat.com/AcrobaticOrdinaryAplomadofalcon-size_restricted.gif" style="margin-top:0px">
+      </a>
+      <div class="desc">
+        <h1><a href="https://podcast31.github.io" target="_blank">Witamy na naszej nowej stronie!</a>
+        </h1>
+      </div>
+    </div>
   </div>
-  <div class="end">
-    <h1><a href="#top">^</a></h1>
+  <h1 style="margin-top: 50px" id="glow">Linki</h1>
+<div class="contact" id="contact" style="margin-bottom:100px">
+    <a href="https://discord.gg/U3CNwCgCSQ" target="_blank"><img src="files/discord.png" id="dc" class="button"></a>
+    <a onclick="msg2()"><img id='email' class="button" src="files/email.png"></a>
   </div>
 </body>
 
